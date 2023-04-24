@@ -3,7 +3,7 @@
 namespace PortfolioApi.Models;
 public class WorksContext : DbContext
 {
-    public WorksContext(DbContextOptions<PostContext> options)
+    public WorksContext(DbContextOptions<WorksContext> options)
         : base(options)
     {
     }
