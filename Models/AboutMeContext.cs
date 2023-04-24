@@ -8,5 +8,5 @@ public class AboutMeContext : DbContext
     {
     }
 
-    public DbSet<AboutMeItem> PostItems { get; set; } = null!;
+    public DbSet<AboutMeItem> AboutMeItems { get; set; } = null!;
 }
