@@ -5,6 +5,6 @@ namespace PortfolioApi.Interface
 {
     public class DBContextPost
     {
-        public DbSet<PostItem> PostItem { get; set; }
+        public DbSet<PostItem> PostItems { get; set; }
     }
 }
