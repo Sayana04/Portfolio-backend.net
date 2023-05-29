@@ -1,6 +1,10 @@
-﻿namespace PortfolioApi.Infrastucture
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.Internal;
+using PortfolioApi.Models;
+
+namespace PortfolioApi.Infrastucture
 {
-    public class DependencyInjection
+    public class DataDbContext : DbContext
     {
     }
 }
